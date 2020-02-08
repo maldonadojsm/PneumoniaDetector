@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Description</h1>
+    <img src="/static/images/lungs_pneumonia.png">
+    <p> Hello there! This web application intends to accurately classify bacterial or viral pneumonia using Deep-Learning Image
+        Classification Methods. My model has been trained using 5800+ Chest X-Ray images provided by the Mendeley Organziation
+        (<a href="URL">https://data.mendeley.com/datasets/rscbjbr9sj/2</a>). Models have been constructed using Tensorflow, Scikitlearn and Keras.
+    </p>
+
+    <h1>Usage</h1>
+
+    <p>Users are prompted in the "Upload Images" tab to upload an X-Ray Lung Image in PNG or JPEG format. After submitting, the application will enter the image
+    into the model; classifying the x-ray lung image as healthy or showing visual symptoms of either viral or bacterial pneumonia. </p>
+{%  endblock content %}
